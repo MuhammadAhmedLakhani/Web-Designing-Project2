@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: "Flexo-regular";
+    src: url('fonts/Flexo-Regular.ttf');
+}
 
 .header {
     width: 100%x;
@@ -69,7 +73,16 @@
 }
 .header-container > ul > li{
     width: 14.2%;
-    height: 87px;
+    height: 93px;
     text-align: center;
     display: inline-block;
+    background-color: #919191;
+    border-radius: 0 0 0 8px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    
+}
+.content{
+    color: #fff;
+    font-family: 'Flexo-regular'
 }
