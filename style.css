@@ -140,3 +140,28 @@ a {
     position: relative;
     top: -14px !important;
 }
+.intro{
+    width: 100%;
+    height: 700px;
+    margin-top:7px ;
+    background-image: url(images/content-image1.png);
+}
+.intro-container{
+    width: 1288px;
+    
+    margin: 0px auto;
+    background: #fff url(images/intro-image2.png);
+}
+.intro-images{
+    width: 880px;
+    height: 700px;
+    margin: 0px auto;
+    background-color: #464646;
+    padding-top: 25px;
+}
+.image-content {
+    width: 578px;
+    height: 141px;
+    /* background-color: rgb(49, 49, 49); */
+    background-color: #fff;
+}
