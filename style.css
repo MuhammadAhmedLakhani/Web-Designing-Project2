@@ -6,7 +6,10 @@
     font-family: "Flexo-regular";
     src: url('fonts/Flexo-Regular.ttf');
 }
-
+@font-face {
+    font-family: "Flexo-medium";
+    src: url('fonts/flexo-medium.ttf');
+}
 .header {
     width: 100%x;
     height: 62px;
@@ -156,7 +159,7 @@ a {
     width: 880px;
     height: 700px;
     margin: 0px auto;
-    background-color: #464646;
+    background-color: #fff;
     padding-top: 30px;
 }
 .right{
@@ -182,4 +185,36 @@ a {
     line-height: 20px;
     color: #30a7d7;
     margin: 8px 8px 12px 20px;
+}
+.intro-cards{
+    width: 678px;
+    height: 300px;
+    margin-top: 20px;
+    
+}
+.intro-card{
+    width: 277px;
+    height: 255px;
+    display: inline-block;
+    
+}
+.intro-card > img {
+    width: 100%;
+    
+}
+.card-content{
+    width: inherit;
+    height: 96px;
+    background-color: #855ac9;
+    position: relative;
+    top: -4px;
+}
+.intro-card > .card-content > h3{
+    padding:  16.5px 11px 16.5px 22px;
+    color: #fff;
+    font-family: 'Flexo-medium';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27.5px;
+
 }
