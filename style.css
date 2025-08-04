@@ -184,10 +184,12 @@ a {
     margin: 0px auto;
     background-color: #fff;
     padding-top: 35px;
+    position: relative;
 }
 
 .right-intro {
     width: 578px;
+    display: inline-block;
 }
 
 .image-content {
@@ -253,4 +255,17 @@ a {
 }
 .pink > .card-content{
     background-color: rgb(255, 144, 196);
+}
+.left-intro{
+    width: 223px;
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    right: 60px;
+}
+
+
+.grey > .card-content{
+    
+    background-color: rgb(49, 49, 49);
 }
