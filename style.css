@@ -14,16 +14,16 @@
 }
 
 .header {
-    width: 100%x;
+    width: 100vw;
     height: 62px;
     background-color: #f5f5f5;
     border-bottom: solid 2px #dedede;
 }
 
 .header-images {
-    width: 1013px;
+    width: 70vw;
     height: 64px;
-    margin: 0px 500px 0px 340px;
+    margin: 0px  auto;
 
 }
 
@@ -61,7 +61,7 @@
 }
 
 .header2 {
-    width: 100%;
+    width: 100vw;
     height: 87px;
     background-color: #fff;
     border-bottom: 2px solid #f0f0f0;
@@ -69,11 +69,9 @@
 }
 
 .header-container {
-    width: 993px;
-    ;
+    width: 68vw;;
     height: 87px;
-    margin: 0px 502px 0px 355px;
-
+    margin: 0px auto;
 
 }
 
@@ -96,7 +94,7 @@
 }
 
 .header-container>ul>li {
-    width: 12.2%;
+    width: 13.7%;
     height: 93px;
     text-align: center;
     display: inline-block;
@@ -105,7 +103,7 @@
     padding-top: 20px;
     box-sizing: border-box;
     position: relative;
-    top: -18px;
+    top: -3px;
 
 }
 
@@ -127,7 +125,7 @@ a {
 
 .apps {
     position: relative !important;
-    top: -6px !important;
+    top: -5px !important;
 }
 
 .second {
@@ -141,7 +139,8 @@ a {
 .third {
     border-bottom: 6px solid #ee6b2f;
     height: 100px !important;
-
+    position: relative !important;
+    top: -6px !important;
 }
 
 .fourth {
@@ -151,7 +150,7 @@ a {
 .fifth {
     border-bottom: 6px solid #4dad5b;
     position: relative;
-    top: -21px !important;
+    top: -22px !important;
 }
 
 .sixth {
