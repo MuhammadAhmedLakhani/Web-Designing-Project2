@@ -12,6 +12,7 @@
     font-family: "Flexo-medium";
     src: url('fonts/Flexo-Medium.ttf');
 }
+
 @font-face {
     font-family: "Flexo-bold";
     src: url('fonts/Flexo-Bold.ttf');
@@ -27,7 +28,7 @@
 .header-images {
     width: 70vw;
     height: 64px;
-    margin: 0px  auto;
+    margin: 0px auto;
 
 }
 
@@ -57,7 +58,7 @@
 
 
     padding: 9px 10px 8px 10px;
-    
+
 }
 
 .right {
@@ -73,7 +74,8 @@
 }
 
 .header-container {
-    width: 68vw;;
+    width: 68vw;
+    ;
     height: 87px;
     margin: 0px auto;
 
@@ -170,10 +172,9 @@ a {
 
 .intro {
     width: 100%;
-    height: 900px;
     margin-top: 7px;
     background: #f0f0f0 url(images/intro-image4.png);
-    
+
 }
 
 .intro-container {
@@ -258,10 +259,12 @@ a {
 .purple {
     margin-right: 14px;
 }
-.pink > .card-content{
+
+.pink>.card-content {
     background-color: rgb(255, 144, 196);
 }
-.left-intro{
+
+.left-intro {
     width: 223px;
     display: inline-block;
     margin-left: 20px;
@@ -269,17 +272,19 @@ a {
     top: 35px;
     right: 60px; */
 }
-.grey{
+
+.grey {
     position: relative;
     top: -30px;
 }
 
 
-.grey > .card-content{
-    
+.grey>.card-content {
+
     background-color: rgb(49, 49, 49);
 }
-.another-card{
+
+.another-card {
     width: 282px;
     height: 150px;
     box-sizing: border-box;
@@ -287,16 +292,19 @@ a {
     position: relative;
     border-radius: 5px;
 }
-.another-card >.image-container{
+
+.another-card>.image-container {
     width: 123px;
     height: 150px;
     display: inline-block;
 }
-.image-container > img {
+
+.image-container>img {
     width: 100%;
     height: 100%;
 }
-.another-content{
+
+.another-content {
     width: 158px;
     height: 150px;
     box-sizing: border-box;
@@ -305,51 +313,59 @@ a {
     position: absolute;
     top: 0px;
 }
-.another-content > h3{ 
+
+.another-content>h3 {
     font-family: "Roboto", arial, sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 35px;
     color: #fff;
-    margin: 8px 8px 12px 20px;   
-    
+    margin: 8px 8px 12px 20px;
+
 }
-.large-card{
+
+.large-card {
     width: 282px;
     height: 283px;
     margin-top: 20px;
     background-color: #666666;
 }
-.large-card > .image-container {
+
+.large-card>.image-container {
     width: 282px;
     height: 160px;
 }
-.image-container >img{
+
+.image-container>img {
     width: 100%;
     height: 100%;
 }
-.large-card > .large-content{
+
+.large-card>.large-content {
     width: 282px;
     height: 124px;
     background-color: rgb(48, 167, 215);
 }
-.large-card > .large-content > h3{
+
+.large-card>.large-content>h3 {
     font-family: "Roboto", arial, sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 35px;
     color: #fff;
-    padding: 8px 8px 12px 20px;   
+    padding: 8px 8px 12px 20px;
 }
-.side-btn{
+
+.side-btn {
     width: 67px;
     padding-top: 16px;
     box-sizing: border-box;
-    background-color:  #54b564;
+    background-color: #54b564;
     position: absolute;
     left: 0px;
 }
-.login{
+
+.login {
     width: 67px;
     height: 79px;
     margin: 14.3px 0px;
@@ -358,17 +374,20 @@ a {
     background-color: #54b564;
     position: relative;
 }
+
 .login-btn {
     width: 40px;
     margin: 10px auto;
-    
-    
+
+
 }
-.login > .login-btn > a > img {
+
+.login>.login-btn>a>img {
     width: 40px;
     height: 40px;
 }
-.login-btn > p{
+
+.login-btn>p {
     font-size: 10.5px;
     padding-top: 0.5px;
     color: #fff;
@@ -376,26 +395,55 @@ a {
     font-weight: 500;
     font-family: 'Flexo-bold';
 }
-.search{
+
+.search {
     width: 67px;
     height: 67px;
     background-color: #dedede;
     position: relative;
 }
-.search-btn > img{
+
+.search-btn>img {
     width: 100%;
     height: 100%;
 }
-.search-btn > i{
+
+.search-btn>i {
     position: absolute;
     font-size: 25px;
     color: #fff;
     top: 20px;
     left: 20px;
 }
-.login >  img{
-    width: 100%;    
+
+.login>img {
+    width: 100%;
     position: absolute;
     top: -40px;
     opacity: 1;
+}
+
+.featured {
+    margin-top: 50px;
+    width: 282px;
+    height: 56px;
+    background-color: #232323;
+    text-align: center;
+}
+.featured > h3{
+    font-family: 'Flexo-medium';
+    color: rgb(145, 145, 145);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 11px 20px 8px 10px;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+}
+.featured > img{
+    display: inline-block;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
 }
