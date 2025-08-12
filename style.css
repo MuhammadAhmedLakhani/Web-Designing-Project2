@@ -423,14 +423,14 @@ a {
     opacity: 1;
 }
 
-.featured {
+.featured-btn {
     margin-top: 50px;
     width: 282px;
     height: 56px;
     background-color: #232323;
     text-align: center;
 }
-.featured > h3{
+.featured-btn > h3{
     font-family: 'Flexo-medium';
     color: rgb(145, 145, 145);
     font-size: 20px;
@@ -441,9 +441,15 @@ a {
     position: relative;
     top: -5px;
 }
-.featured > img{
+.featured-btn > img{
     display: inline-block;
     margin-top: 10px;
     width: 30px;
     height: 30px;
+}
+.featured{
+    width: 1288px;
+    height: 300px;
+    background-color: #919191;
+    margin: 0px auto;
 }
