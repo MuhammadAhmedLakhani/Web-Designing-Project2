@@ -18,6 +18,11 @@
     src: url('fonts/Flexo-Bold.ttf');
 }
 
+@font-face {
+    font-family: 'Flexo-demi';
+    src: url('fonts/Flexo-Demi.ttf');
+}
+
 .header {
     width: 100vw;
     height: 62px;
@@ -370,7 +375,7 @@ a {
     position: sticky;
     top: 10px;
     margin-right: 40px;
-    z-index: 4;
+    z-index: 2;
 }
 
 .login {
@@ -571,13 +576,78 @@ a {
 }
 .more-pokemon{
     width: 1288px;
-    height: 300px;
     margin: 0px auto;
     background: #fff url(images/intro-image2.png);
 }
+
 .more-container{
     width: 940px;
-    height: 400px;
-    margin-left: 120px;
+    height: 900px;
+    margin-left: 120px;    
     
+}
+.more-btn{
+    padding-bottom: 32px;
+}
+.more-btn > a {
+    font-family: 'Flexo-demi';
+    font-size: 16.8px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 13.5px;
+    padding: 12.6px 21px 11.3px;
+    width: 222px;
+    box-sizing: border-box;
+    height: 45px;
+    margin-top: 90px;
+    background-color: #313131;
+    color: #fff;
+    position: relative;
+    left: 76%;
+    border-radius: 5px;
+    display: block !important;
+}
+.more-cards{
+    width: 940px;
+    height: 800px;
+    background-color: #464646;
+}
+.more-cards > .left{
+    width: 282px;
+    height: 765px;
+    background-color: #fff;
+}
+.left-card1{
+    width: 282px;
+    height: 413px;
+}
+.image-left{
+    width: 282px;
+    height: 160px;
+}
+.image-left > img{
+    width: 100%;
+}
+.content-left {
+    background-color:rgb(133, 90, 201);
+}
+.content-left > h3{
+    width: 248px;
+    height: 110px;
+    font-family:'Flexo-medium';
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27.5px;
+    padding: 16.5px 11px 0px 22px;
+}
+.content-left > p{
+    width: 253PX;
+    height: 100px;
+    padding: 8px 8px 12px 20px;
+    color: rgb(33, 33, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+
 }
