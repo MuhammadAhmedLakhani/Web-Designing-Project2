@@ -615,6 +615,7 @@ a {
 .more-cards > .left{
     width: 282px;
     height: 765px;
+    vertical-align: top;
     position: relative;
     top: 7%;
 }
@@ -674,4 +675,43 @@ a {
     font-size: 16px;
     line-height: 20px;
     padding: 16.5px 11px 0px 22px;
+}
+.middle{
+    width: 282px;
+    height: 872px;
+    background-color:#30a7d7;
+    margin-left: 10px;
+    position: relative;
+    top: 2%;
+}
+.more-cards > *{
+    display: inline-block;
+}
+.middle-card1{
+    width: 282px;
+    height: 319px;
+
+}
+.content-middle{
+    background-color: rgb(77, 173, 91);
+}
+.content-middle > h3{
+    width: 248px;
+    height: 55px;
+    font-family:'Flexo-medium';
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27.5px;
+    padding: 16.5px 11px 0px 22px;    
+}
+.content-middle > P {
+    width: 253PX;
+    height: 80px;
+    padding: 8px 8px 12px 20px;
+    color: rgb(33, 33, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16.5px 11px 0px 22px;    
 }
