@@ -678,8 +678,7 @@ a {
 }
 .middle{
     width: 282px;
-    height: 872px;
-    background-color:#30a7d7;
+    height: 852px;
     margin-left: 10px;
     position: relative;
     top: 2%;
@@ -714,4 +713,41 @@ a {
     font-size: 16px;
     line-height: 20px;
     padding: 16.5px 11px 0px 22px;    
+}
+.middle-card2{
+    width: 282px;
+    height: 105px;
+    margin-top: 16px;
+}
+.middle-card2 > h2{
+    color: #919191;
+    font-family: 'Flexo-regular';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37.5px;
+    padding: 15px 0px;
+    background-color: #fff;
+}
+.content-middle3{
+    background-color:rgb(49, 49, 49);   
+}
+.content-middle3 > h3{
+    width: 248px;
+    height: 138px;
+    padding: 16.5px 11px 0px 22px;
+    color: rgb(255, 255, 255);
+    font-family: 'Flexo-medium';
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 27.5px;
+}
+.content-middle3 > p {
+    width: 253px;
+    height: 70px;
+    padding: 8px  8px 12px 20px;
+    color: rgb(204, 204, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
 }
