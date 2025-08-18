@@ -912,3 +912,64 @@ a {
     line-height: 20px;
     padding: 8px 8px 8px 20px;
 }
+
+.footer {
+    width: 100vw;
+    height: 572px;
+    background-color: #000;
+}
+
+.footer-container {
+    margin: 0px;
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+.footer-form {
+    width: 850px;
+    height: 228px;
+    margin: 0px auto;
+    background-color: #464646;
+}
+
+.footer-form>p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21.6px;
+    font-weight: 700;
+    line-height: 27px;
+    padding-top: 10px;
+}
+.footer-form > .left{
+    width: 407px;
+    height: 125px;
+    /* background-color: #30a7d7; */
+    margin-top: 15px;
+}
+.left > .input-box,.input-box1{
+    box-sizing: border-box;
+    width: 405px;
+    height: 40px;
+    padding: 8px 0px;
+    color: rgb(128, 128, 128);
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+.input-box1{
+    margin-top: 15px;
+    width: 200px !important;
+}
+.submit{
+    width: 150px;
+    height: 65px;
+    background-color: rgb(136, 136, 136);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 9px;
+    padding: 6px 3px;
+}
