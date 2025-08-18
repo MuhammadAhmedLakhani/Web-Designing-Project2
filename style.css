@@ -929,7 +929,6 @@ a {
     width: 850px;
     height: 228px;
     margin: 0px auto;
-    background-color: #464646;
 }
 
 .footer-form>p {
@@ -943,8 +942,8 @@ a {
 .footer-form > .left{
     width: 407px;
     height: 125px;
-    /* background-color: #30a7d7; */
     margin-top: 15px;
+    display: inline-block;
 }
 .left > .input-box,.input-box1{
     box-sizing: border-box;
@@ -970,6 +969,46 @@ a {
     font-size: 16px;
     font-weight: 700;
     text-align: center;
-    margin-top: 9px;
+    margin-top: 12px;
     padding: 6px 3px;
+    border-radius: 5px;
+}
+.footer-form > .right{
+    width: 400px;
+    margin-left: 10px;
+    height: 125px;
+    margin-top: 15px;
+    display: inline-block;
+    vertical-align:super;
+    position: relative;
+    top: -8%;
+}
+.email-msg{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+}
+.footer-checkbox{
+    margin-top: 2px;
+}
+.footer-checkbox > input{
+    font-size: 13.3px;
+    height: 25px;
+    width: 25px;
+}
+.footer-checkbox > label{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;   
+    line-height: 16px;
+    width: 278.8px;
+    vertical-align: super;
+    margin-left: 5px;
+}
+.footer-link{
+    font-weight: bold;
+    color: white;
+    text-decoration: underline !important;
 }
