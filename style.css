@@ -177,6 +177,7 @@ a {
 
 .intro {
     width: 100%;
+    height: 2540px;
     margin-top: 7px;
     background: #f0f0f0 url(images/intro-image4.png);
 
@@ -597,6 +598,7 @@ a {
 
 .more-pokemon {
     width: 1288px;
+    height: 1080px;
     margin: 0px auto;
     background: #fff url(images/intro-image2.png);
 }
@@ -633,8 +635,9 @@ a {
 
 .more-cards {
     width: 940px;
-    height: 1000px;
-    background-color: #fff
+    height: 1010px;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .more-cards>.left {
